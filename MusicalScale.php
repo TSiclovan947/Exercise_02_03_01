@@ -27,6 +27,14 @@
             $outputString .= " " . $currentNote;
         }
         echo "<p>$outputString</p>";
+        
+        echo "<h2>Formatted Text</h2>";
+        $displayValue = 9.876;
+        echo "<pre>\n";
+        echo "Unformatted text line 1. \r\n";
+        echo "Unformatted text line 2. \r\n";
+        echo "\$displayValue = $displayValue";
+        echo "</pre>\n";
         ?>
     </body>
 </html>
